@@ -1,0 +1,87 @@
+![MikroE](http://www.mikroe.com/img/designs/beta/logo_small.png)
+
+![Accel 3 Click](http://cdn.mikroe.com/img/click/accel-3/preview/accel-3-click-thumb-02.png)
+
+---
+[Product Page](http://www.mikroe.com/click/accel3/)
+
+[Manual Page](http://docs.mikroe.com/Accel_3_click)
+
+[Learn Page](http://learn.mikroe.com/mems-sensors-conversion-physical-world-digital-world/)
+
+---
+
+### General Description
+
+Accel 3 click™ is a mikroBUS™ add-on board with ST’s H3LIS331DL low-power high-g 3-axis digital accelerometer. The IC has ±100g/±200g/±400g dynamically selectable full scales and outputs 16-bit data at rates from 0.5 Hz to 1 kHz. On the upper end, the chip can survive a 1000g high-shock. H3LIS331DL has extremely low power consumption (down to 1µA in low-power mode). Advanced sleep-to-wakeup functions are also available.  Accel 3 click can communicate with the target MCU either through the mikroBUS™ SPI or UART interface, with additional functionality provided by an interrupt pin (INT). The board is designed to use a 3.3 power supply only.
+
+Applications
+
+Shock detection, impact recognition, concussion detector
+
+
+Key features
+- ±100g/±200g/±400g dynamically selectable full scales
+- 16-bit data output; 0.5Hz to 1kHz data rates
+- I2C or SPI interface
+- 3.3V power supply
+
+Key benefits
+- Selectable interface
+- Configurable I2C address
+- Low-power consumption
+- mikroBUS™ form factor enables easy integration
+
+---
+
+### Example
+
+#### Configuration
+* MCU:             STM32F107VC
+* Dev.Board:       EasyMx Pro v7
+* Oscillator:      72 Mhz internal
+* Ext. Modules:    Accel 3 click
+* SW:              MikroC PRO for ARM 4.7.4
+
+```
+#include <stdint.h>
+
+/*      Functions
+ ****************************/
+
+
+sbit FLASH_2_WP at GPIOA_ODR.B0;
+sbit FLASH_2_CS at GPIOD_ODR.B13;
+sbit FLASH_2_HLD at GPIOC_ODR.B2;
+
+void setup()
+{
+
+    GPIO_Digital_Output( &GPIOA_BASE, _GPIO_PINMASK_0 );
+    GPIO_Digital_Output( &GPIOC_BASE, _GPIO_PINMASK_2 );
+    GPIO_Digital_Output( &GPIOD_BASE, _GPIO_PINMASK_13 );
+
+    SPI1_Init_Advanced( _SPI_FPCLK_DIV64,
+                          _SPI_MASTER | _SPI_8_BIT | _SPI_CLK_IDLE_LOW |
+                          _SPI_FIRST_CLK_EDGE_TRANSITION | _SPI_MSB_FIRST |
+                          _SPI_SS_DISABLE | _SPI_SSM_ENABLE |
+                          _SPI_SSI_1,
+                          &_GPIO_MODULE_SPI3_PC10_11_12 );
+
+    Delay_ms(300);
+
+}
+
+
+int main(void)
+{
+    setup();
+
+    flash_2_init();
+    Delay_ms(300);
+    
+    while(1)
+    {}
+
+}
+```

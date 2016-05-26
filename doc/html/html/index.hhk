@@ -1,0 +1,690 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html"><param name="Name" value="accel3.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#ab3ab773fdb50c016376724d485a22fdf"><param name="Name" value="accel3_calibrate_x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#aca31e9c51e124d76b13b0206c21986f9"><param name="Name" value="accel3_calibrate_y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a0d915b9d347fe58ca0da34c2bf64d076"><param name="Name" value="accel3_calibrate_z"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#adb5b15323567cfa05770610389ac275e"><param name="Name" value="accel3_get_xyz"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a35c5f2941e75d09db12a19761dcacbad"><param name="Name" value="accel3_init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a81f2e54d1c60d59a9051d1b7a74ba531"><param name="Name" value="accel3_set_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a5a9be9aca935f22744f52cb05c9d75c8"><param name="Name" value="accel3_set_interrupt2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html"><param name="Name" value="accel3.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a645992b3dde5725eeca50b0d0507a46f"><param name="Name" value="accel3_calibrate_x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a1180573aa126d440571c01326e19b460"><param name="Name" value="accel3_calibrate_y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a116908c5116bab86ae211d34931b7c62"><param name="Name" value="accel3_calibrate_z"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#adb5b15323567cfa05770610389ac275e"><param name="Name" value="accel3_get_xyz"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a35c5f2941e75d09db12a19761dcacbad"><param name="Name" value="accel3_init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a81f2e54d1c60d59a9051d1b7a74ba531"><param name="Name" value="accel3_set_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a5a9be9aca935f22744f52cb05c9d75c8"><param name="Name" value="accel3_set_interrupt2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab6b9756d2137c0ae44792a6c23a97c2a"><param name="Name" value="accel3_bdu_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab6b9756d2137c0ae44792a6c23a97c2a"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab6b9756d2137c0ae44792a6c23a97c2a"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a101bc7d14f01e65245083fe6a2385add"><param name="Name" value="accel3_ble_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a101bc7d14f01e65245083fe6a2385add"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a101bc7d14f01e65245083fe6a2385add"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#ab3ab773fdb50c016376724d485a22fdf"><param name="Name" value="accel3_calibrate_x"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#ab3ab773fdb50c016376724d485a22fdf"><param name="Name" value="accel3.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a645992b3dde5725eeca50b0d0507a46f"><param name="Name" value="accel3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#aca31e9c51e124d76b13b0206c21986f9"><param name="Name" value="accel3_calibrate_y"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#aca31e9c51e124d76b13b0206c21986f9"><param name="Name" value="accel3.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a1180573aa126d440571c01326e19b460"><param name="Name" value="accel3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a0d915b9d347fe58ca0da34c2bf64d076"><param name="Name" value="accel3_calibrate_z"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a0d915b9d347fe58ca0da34c2bf64d076"><param name="Name" value="accel3.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a116908c5116bab86ae211d34931b7c62"><param name="Name" value="accel3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#abe2cb425cec166d21ec5d21497dcf9a7"><param name="Name" value="accel3_filtered_data_selection_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#abe2cb425cec166d21ec5d21497dcf9a7"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#abe2cb425cec166d21ec5d21497dcf9a7"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a30966eb04484796bd489a97cac4520f6"><param name="Name" value="accel3_get_full_scale"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a30966eb04484796bd489a97cac4520f6"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a30966eb04484796bd489a97cac4520f6"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#adb5b15323567cfa05770610389ac275e"><param name="Name" value="accel3_get_xyz"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#adb5b15323567cfa05770610389ac275e"><param name="Name" value="accel3.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#adb5b15323567cfa05770610389ac275e"><param name="Name" value="accel3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aa31384cd18d34aaa24b4f664a453ca67"><param name="Name" value="accel3_get_xyz_sensitivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aa31384cd18d34aaa24b4f664a453ca67"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aa31384cd18d34aaa24b4f664a453ca67"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html"><param name="Name" value="accel3_hal.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#af5c4dd83044d3fb6d1a19fd1bc55d19c"><param name="Name" value="accel3_hal_init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#a3af2e09dc9aeeb403230a9f4cff6dab5"><param name="Name" value="accel3_hal_read"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#aed230a149f3e516de28523432d50dbdb"><param name="Name" value="accel3_hal_write"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#aff665cf0441e8417c1d4283c1dc66058"><param name="Name" value="accel_3_hal_cs_high"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#aeaa1761b516a20df3e5d116aceae2851"><param name="Name" value="accel_3_hal_cs_low"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#a6cd4277769fdbcdf20463ec46f0278b9"><param name="Name" value="accel_3_hal_delay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#a304b041599629790be405784a1f7eafb"><param name="Name" value="accel_3_hal_reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#adc81a065700d3af56b6fb631585e3641"><param name="Name" value="DUMMY_BYTE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html"><param name="Name" value="accel3_hal.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#af5c4dd83044d3fb6d1a19fd1bc55d19c"><param name="Name" value="accel3_hal_init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a3af2e09dc9aeeb403230a9f4cff6dab5"><param name="Name" value="accel3_hal_read"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#ab9a2caffcc67475557547135b7e8175c"><param name="Name" value="accel3_hal_reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#aed230a149f3e516de28523432d50dbdb"><param name="Name" value="accel3_hal_write"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#aff665cf0441e8417c1d4283c1dc66058"><param name="Name" value="accel_3_hal_cs_high"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#aeaa1761b516a20df3e5d116aceae2851"><param name="Name" value="accel_3_hal_cs_low"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a6cd4277769fdbcdf20463ec46f0278b9"><param name="Name" value="accel_3_hal_delay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a304b041599629790be405784a1f7eafb"><param name="Name" value="accel_3_hal_reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a87738054f9a89f0ac29c6ee1fb7da08d"><param name="Name" value="COMMAND_SIZE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a212979f5fc9dcf0a420e90b9b21d780a"><param name="Name" value="MAX_BUFF_SIZE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#ada74e7db007a68e763f20c17f2985356"><param name="Name" value="READ"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#aa10f470e996d0f51210d24f442d25e1e"><param name="Name" value="WRITE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#af5c4dd83044d3fb6d1a19fd1bc55d19c"><param name="Name" value="accel3_hal_init"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#af5c4dd83044d3fb6d1a19fd1bc55d19c"><param name="Name" value="accel3_hal.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#af5c4dd83044d3fb6d1a19fd1bc55d19c"><param name="Name" value="accel3_hal.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#a3af2e09dc9aeeb403230a9f4cff6dab5"><param name="Name" value="accel3_hal_read"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#a3af2e09dc9aeeb403230a9f4cff6dab5"><param name="Name" value="accel3_hal.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a3af2e09dc9aeeb403230a9f4cff6dab5"><param name="Name" value="accel3_hal.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#ab9a2caffcc67475557547135b7e8175c"><param name="Name" value="accel3_hal_reset"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#aed230a149f3e516de28523432d50dbdb"><param name="Name" value="accel3_hal_write"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#aed230a149f3e516de28523432d50dbdb"><param name="Name" value="accel3_hal.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#aed230a149f3e516de28523432d50dbdb"><param name="Name" value="accel3_hal.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aef9d10450d7a545656764a946765fbf2"><param name="Name" value="accel3_hp1_filter_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aef9d10450d7a545656764a946765fbf2"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aef9d10450d7a545656764a946765fbf2"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a16bd358b3f4e2f28911d98c5607a9ca5"><param name="Name" value="accel3_hp2_filter_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a16bd358b3f4e2f28911d98c5607a9ca5"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a16bd358b3f4e2f28911d98c5607a9ca5"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab81e26c9312977b1fcf291c3d9d1be63"><param name="Name" value="accel3_hp_cutoff_freq_config"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab81e26c9312977b1fcf291c3d9d1be63"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab81e26c9312977b1fcf291c3d9d1be63"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a10490bb5c1eec4768885bec444a50f74"><param name="Name" value="accel3_hp_filter_mode_select"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a10490bb5c1eec4768885bec444a50f74"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a10490bb5c1eec4768885bec444a50f74"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a258e4c22771d4647f8b5b59c338fd6ca"><param name="Name" value="accel3_hp_filter_reset"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a258e4c22771d4647f8b5b59c338fd6ca"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a922eb1bfae237568a17fbd8ee25dc289"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab2825045a09de094a6c28589837eba64"><param name="Name" value="accel3_hp_filter_set_reference"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab2825045a09de094a6c28589837eba64"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab2825045a09de094a6c28589837eba64"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html"><param name="Name" value="accel3_hw.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab6b9756d2137c0ae44792a6c23a97c2a"><param name="Name" value="accel3_bdu_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a101bc7d14f01e65245083fe6a2385add"><param name="Name" value="accel3_ble_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#abe2cb425cec166d21ec5d21497dcf9a7"><param name="Name" value="accel3_filtered_data_selection_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a30966eb04484796bd489a97cac4520f6"><param name="Name" value="accel3_get_full_scale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aa31384cd18d34aaa24b4f664a453ca67"><param name="Name" value="accel3_get_xyz_sensitivity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aef9d10450d7a545656764a946765fbf2"><param name="Name" value="accel3_hp1_filter_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a16bd358b3f4e2f28911d98c5607a9ca5"><param name="Name" value="accel3_hp2_filter_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab81e26c9312977b1fcf291c3d9d1be63"><param name="Name" value="accel3_hp_cutoff_freq_config"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a10490bb5c1eec4768885bec444a50f74"><param name="Name" value="accel3_hp_filter_mode_select"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a258e4c22771d4647f8b5b59c338fd6ca"><param name="Name" value="accel3_hp_filter_reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab2825045a09de094a6c28589837eba64"><param name="Name" value="accel3_hp_filter_set_reference"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1eadd03ff665d4acb860727c59e1f853"><param name="Name" value="accel3_hw_init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1755be2695857bd7685f911fd03bf163"><param name="Name" value="accel3_int1_set_duration"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad30ff6b9ab2e3745ba657c32e9d80838"><param name="Name" value="accel3_int1_set_threshold"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a927d34d5a696baef463f875552ad6b94"><param name="Name" value="accel3_int1_signal_config"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1faa30f39768c01de01c3e4672dafabe"><param name="Name" value="accel3_int2_set_duration"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a65a1155d70288a870d051bd7d22b5327"><param name="Name" value="accel3_int2_set_threshold"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a59531b29a263266df717d57897be11d5"><param name="Name" value="accel3_int2_signal_config"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a6b47d3fb2c9e10fb88b18c89aa5385d2"><param name="Name" value="accel3_interrupt1_set_combination"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a74c54db2d1a91ab65a1a2b57f3891e3e"><param name="Name" value="accel3_interrupt1_x_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ae60ba8828e7a457e7d3ed56dc394599d"><param name="Name" value="accel3_interrupt1_x_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aba2058172bf038f068dd2b283ea93c46"><param name="Name" value="accel3_interrupt1_y_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a38469759cf48d6470385d1da571534b3"><param name="Name" value="accel3_interrupt1_y_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a7efa56c72202df63e78221d056fb81c5"><param name="Name" value="accel3_interrupt1_z_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3c5fb6c4743ba453366443bc7d9e1091"><param name="Name" value="accel3_interrupt1_z_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3fc1e523491846fe1204bf91167490b9"><param name="Name" value="accel3_interrupt2_set_combination"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a8a5b979f3e14b2092d8a1998e5b6f1c7"><param name="Name" value="accel3_interrupt2_x_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#adac63302b39010726012920aa9528a8f"><param name="Name" value="accel3_interrupt2_x_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aaee659908c8bb68ff5282774c0fe1a3c"><param name="Name" value="accel3_interrupt2_y_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a546c4e55346d796f35254183faac9f59"><param name="Name" value="accel3_interrupt2_y_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#af76277d590a0dad404580c9c6d582344"><param name="Name" value="accel3_interrupt2_z_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a74bbd0778e98be8062a449dc741dc4f6"><param name="Name" value="accel3_interrupt2_z_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#af1951cc829974672d430b657faaea5e1"><param name="Name" value="accel3_interrupt_active_level"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#afc77db94b5a1fa06540b7c923b8d6387"><param name="Name" value="accel3_interrupt_pad_selection"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a377f0eefd1d4122e0b4f861a328ec985"><param name="Name" value="accel3_is_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a2e7aa4310aebe04684625bb21a87c25b"><param name="Name" value="accel3_is_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aedde21e2a5fa393424cd43682c5d454f"><param name="Name" value="accel3_is_new_data_all"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a6fa04b1f99ccb09bada020b488cbe5f5"><param name="Name" value="accel3_is_new_data_x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#af9852b0afe2ffac60dd9db75d21ffe8f"><param name="Name" value="accel3_is_new_data_y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad4ae924ad7cbf41b6af80a37429bdbd3"><param name="Name" value="accel3_is_new_data_z"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad8ee5562fa7bbcd8694533fb818fa1c1"><param name="Name" value="accel3_is_overrun_all"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a265dc1a08a589b7d356cbce75685667f"><param name="Name" value="accel3_is_overrun_x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a82f99f5eee8143a9b6bf1e5b31f0ae8b"><param name="Name" value="accel3_is_overrun_y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ae9e61627ddbf2c52ec0764c9840d7790"><param name="Name" value="accel3_is_overrun_z"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3b7ef0dec306d661b25d7c5e2dbedc5c"><param name="Name" value="accel3_is_x_high_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#abb8db57c211de354d5603d4c86c91e0f"><param name="Name" value="accel3_is_x_high_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a840a322ed4b7604ed37a1e25f822b90f"><param name="Name" value="accel3_is_x_low_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aefba2a10405587a2f373ea781492fa21"><param name="Name" value="accel3_is_x_low_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#abab1b83037f34914651a35679be0bed9"><param name="Name" value="accel3_is_y_high_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a93811b4906a755007aa29fa432a05383"><param name="Name" value="accel3_is_y_high_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aa487e8cfe5f825771a6ac6387a6f025a"><param name="Name" value="accel3_is_y_low_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a80666aa83f5e4a049fd699688ee7a9ab"><param name="Name" value="accel3_is_y_low_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad1cc25a56583ee0d954b33f7dd3cf24c"><param name="Name" value="accel3_is_z_high_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab7ad9004fb7bdd0f5bcf911ed7308d9f"><param name="Name" value="accel3_is_z_high_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aa6676843631f534154ef75fa4400ad27"><param name="Name" value="accel3_is_z_low_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a793eeb07c8eaf5f3b1ab35188456d428"><param name="Name" value="accel3_is_z_low_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a76ebae83a76b58066d3c876bc4c77ca2"><param name="Name" value="accel3_latched_interrupt1_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aaaf360d90fe5381c9c7c42e170cd310b"><param name="Name" value="accel3_latched_interrupt2_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a55969c2563dc77f0a82aaec9711daa1c"><param name="Name" value="accel3_read_acc_x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1d13316e81986222c6c21d01b239ce88"><param name="Name" value="accel3_read_acc_y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1d2d4f0fba253cf33577472e20d15c7e"><param name="Name" value="accel3_read_acc_z"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a32e7eddd1ba5812f8d3a533c38a0d6e4"><param name="Name" value="accel3_reboot"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3c8efc79db623275446079606123435a"><param name="Name" value="accel3_set_data_rate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a86315452312a88bc5c88a72c74d4a3a2"><param name="Name" value="accel3_set_full_scale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a11a3ccdf0c1b44831e2372363f6222f3"><param name="Name" value="accel3_set_mode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab1e3ed14f712c59e0d4bc06ae8d82b6b"><param name="Name" value="accel3_sleep_to_wake_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a28dbdf3be267a44bf4ffc7c1124a417f"><param name="Name" value="accel3_x_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3c4ac1167c0d7ce3d2ea8674b9c51880"><param name="Name" value="accel3_y_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a15427b6286d5d2ced7d372ad1826aea6"><param name="Name" value="accel3_z_enable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html"><param name="Name" value="accel3_hw.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab6b9756d2137c0ae44792a6c23a97c2a"><param name="Name" value="accel3_bdu_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a101bc7d14f01e65245083fe6a2385add"><param name="Name" value="accel3_ble_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#abe2cb425cec166d21ec5d21497dcf9a7"><param name="Name" value="accel3_filtered_data_selection_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a30966eb04484796bd489a97cac4520f6"><param name="Name" value="accel3_get_full_scale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aa31384cd18d34aaa24b4f664a453ca67"><param name="Name" value="accel3_get_xyz_sensitivity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aef9d10450d7a545656764a946765fbf2"><param name="Name" value="accel3_hp1_filter_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a16bd358b3f4e2f28911d98c5607a9ca5"><param name="Name" value="accel3_hp2_filter_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab81e26c9312977b1fcf291c3d9d1be63"><param name="Name" value="accel3_hp_cutoff_freq_config"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a10490bb5c1eec4768885bec444a50f74"><param name="Name" value="accel3_hp_filter_mode_select"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a922eb1bfae237568a17fbd8ee25dc289"><param name="Name" value="accel3_hp_filter_reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab2825045a09de094a6c28589837eba64"><param name="Name" value="accel3_hp_filter_set_reference"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1eadd03ff665d4acb860727c59e1f853"><param name="Name" value="accel3_hw_init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1755be2695857bd7685f911fd03bf163"><param name="Name" value="accel3_int1_set_duration"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ad30ff6b9ab2e3745ba657c32e9d80838"><param name="Name" value="accel3_int1_set_threshold"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a927d34d5a696baef463f875552ad6b94"><param name="Name" value="accel3_int1_signal_config"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1faa30f39768c01de01c3e4672dafabe"><param name="Name" value="accel3_int2_set_duration"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a65a1155d70288a870d051bd7d22b5327"><param name="Name" value="accel3_int2_set_threshold"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a59531b29a263266df717d57897be11d5"><param name="Name" value="accel3_int2_signal_config"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a6b47d3fb2c9e10fb88b18c89aa5385d2"><param name="Name" value="accel3_interrupt1_set_combination"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a74c54db2d1a91ab65a1a2b57f3891e3e"><param name="Name" value="accel3_interrupt1_x_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ae60ba8828e7a457e7d3ed56dc394599d"><param name="Name" value="accel3_interrupt1_x_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aba2058172bf038f068dd2b283ea93c46"><param name="Name" value="accel3_interrupt1_y_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a38469759cf48d6470385d1da571534b3"><param name="Name" value="accel3_interrupt1_y_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a7efa56c72202df63e78221d056fb81c5"><param name="Name" value="accel3_interrupt1_z_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3c5fb6c4743ba453366443bc7d9e1091"><param name="Name" value="accel3_interrupt1_z_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3fc1e523491846fe1204bf91167490b9"><param name="Name" value="accel3_interrupt2_set_combination"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a8a5b979f3e14b2092d8a1998e5b6f1c7"><param name="Name" value="accel3_interrupt2_x_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#adac63302b39010726012920aa9528a8f"><param name="Name" value="accel3_interrupt2_x_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aaee659908c8bb68ff5282774c0fe1a3c"><param name="Name" value="accel3_interrupt2_y_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a546c4e55346d796f35254183faac9f59"><param name="Name" value="accel3_interrupt2_y_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af76277d590a0dad404580c9c6d582344"><param name="Name" value="accel3_interrupt2_z_high_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a74bbd0778e98be8062a449dc741dc4f6"><param name="Name" value="accel3_interrupt2_z_low_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af1951cc829974672d430b657faaea5e1"><param name="Name" value="accel3_interrupt_active_level"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#afc77db94b5a1fa06540b7c923b8d6387"><param name="Name" value="accel3_interrupt_pad_selection"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a610e53001f8c45b97f4081ec4d78e4e7"><param name="Name" value="accel3_is_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a09674caafa6bebec175a6f42bf4d9c7e"><param name="Name" value="accel3_is_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af60af53f90d5c19ed735aa67dbd604a4"><param name="Name" value="accel3_is_new_data_all"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a5f4e2f12883b37d172d54e330c1c14c4"><param name="Name" value="accel3_is_new_data_x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a286c6eb523e421c1a51d476d498d743a"><param name="Name" value="accel3_is_new_data_y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1fb73805867f12e06dbbd9edbb7ef69f"><param name="Name" value="accel3_is_new_data_z"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aa3b3800ae2cca60a8895a15a46bb0c0e"><param name="Name" value="accel3_is_overrun_all"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3afc880229151be1ec4f4fc63eeefaa9"><param name="Name" value="accel3_is_overrun_x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a6b2f786ba750d685e7fd68f66658895b"><param name="Name" value="accel3_is_overrun_y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a5a8d79b5e076e3b9d64e36783042063c"><param name="Name" value="accel3_is_overrun_z"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a6851092bdf21166fc6ef60fc96361d7c"><param name="Name" value="accel3_is_x_high_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af9f40d96f0488f11054bbd66c36fd06b"><param name="Name" value="accel3_is_x_high_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aa0be389b1100b40c020d5d6428e81198"><param name="Name" value="accel3_is_x_low_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a5b7f89fdede7739e4e1635b103150226"><param name="Name" value="accel3_is_x_low_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ad34cba168cf8121b384f8208dc22f2f4"><param name="Name" value="accel3_is_y_high_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a5cf72b987ad011458a6b1820163d754a"><param name="Name" value="accel3_is_y_high_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a7321e8fabb70606d59a09ebb26415d1e"><param name="Name" value="accel3_is_y_low_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a25c800c3eaefdf34acff89977175d841"><param name="Name" value="accel3_is_y_low_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a8b3dcb13eb0cfdecf068c2f2dfb01421"><param name="Name" value="accel3_is_z_high_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a01aa748f73694604f84da40dc9fdca0f"><param name="Name" value="accel3_is_z_high_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ae225e12a35de523bb304d5da0a9ed63f"><param name="Name" value="accel3_is_z_low_interrupt1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#afdb271ea3517c0af1ce5975b9a2a085f"><param name="Name" value="accel3_is_z_low_interrupt2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a76ebae83a76b58066d3c876bc4c77ca2"><param name="Name" value="accel3_latched_interrupt1_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aaaf360d90fe5381c9c7c42e170cd310b"><param name="Name" value="accel3_latched_interrupt2_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a2c268c2058a24b1b590d349f0b184742"><param name="Name" value="accel3_read_acc_x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a82ca3ae901d93402a85506aa8b3ec064"><param name="Name" value="accel3_read_acc_y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a47614bb592f3eca24ff2a61a6eaa6bfe"><param name="Name" value="accel3_read_acc_z"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a32e7eddd1ba5812f8d3a533c38a0d6e4"><param name="Name" value="accel3_reboot"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3c8efc79db623275446079606123435a"><param name="Name" value="accel3_set_data_rate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a86315452312a88bc5c88a72c74d4a3a2"><param name="Name" value="accel3_set_full_scale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a11a3ccdf0c1b44831e2372363f6222f3"><param name="Name" value="accel3_set_mode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab1e3ed14f712c59e0d4bc06ae8d82b6b"><param name="Name" value="accel3_sleep_to_wake_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a28dbdf3be267a44bf4ffc7c1124a417f"><param name="Name" value="accel3_x_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3c4ac1167c0d7ce3d2ea8674b9c51880"><param name="Name" value="accel3_y_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a15427b6286d5d2ced7d372ad1826aea6"><param name="Name" value="accel3_z_enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#abd83ea49367ca7850ffc9091890aa46b"><param name="Name" value="CTRL_REG1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#afd5ce55297b11bfc3c750a359b80de46"><param name="Name" value="CTRL_REG2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#acdb673970b82f2380da68c9e8d1dc5c6"><param name="Name" value="CTRL_REG3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a36c532b0a660c101907dcad7ee399fbd"><param name="Name" value="CTRL_REG4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a97cbbf0a1e80e40544629e925e5a9026"><param name="Name" value="CTRL_REG5"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a8d1b8af192ee3be491a2289fb45ca58a"><param name="Name" value="HP_FILTER_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ac4c771f61d79d83398f9a503ef4a3f88"><param name="Name" value="INT1_CFG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a2445fd1c5aaf640679e67cc7b8737d06"><param name="Name" value="INT1_DUR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af8662806f48b92f6979ad5a94b6864aa"><param name="Name" value="INT1_SRC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a6617aba37b5307e4a6c4231ec6f200da"><param name="Name" value="INT1_THS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a95c14af3a9c0b08c2e545bf3f4a7faca"><param name="Name" value="INT2_CFG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a74293aedbc1dec8cd91d9f33be92d498"><param name="Name" value="INT2_DUR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a268fb5d30f6d0f37ad2a00b39b6fd78b"><param name="Name" value="INT2_SRC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a370fc897047f2ef3ae33db92d7aa7b50"><param name="Name" value="INT2_THS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af3419eb79d96b0179006217d77eb093c"><param name="Name" value="OUT_X_H"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a7a4d341c8dd90a78b5d073c450ad9fe6"><param name="Name" value="OUT_X_L"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ac1dcb47bc35099013ba90efe93d108fd"><param name="Name" value="OUT_Y_H"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#afb7888eaca1ba1dd4c7702a7da5b132e"><param name="Name" value="OUT_Y_L"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a98fe007407ff9fbb53d7d70dbd44cf03"><param name="Name" value="OUT_Z_H"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1c28426236e35c599d9804b7b26d35c9"><param name="Name" value="OUT_Z_L"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af9b744db577c4bcdc5be8815cf1bd051"><param name="Name" value="REFERENCE_REG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a034e43028dded32814f1a4d1fe5bb319"><param name="Name" value="set_x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab8649a3e9b9bf7c3105048eefd99c1f8"><param name="Name" value="set_y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ad4f3479c1281cd01a78f87a3048896fd"><param name="Name" value="set_z"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1f7e79cfe81dc06414550fa52418941e"><param name="Name" value="STATUS_REG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a9fcb9e460d175bfc7ab4d80bf788b43a"><param name="Name" value="WHO_AM_I"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1eadd03ff665d4acb860727c59e1f853"><param name="Name" value="accel3_hw_init"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1eadd03ff665d4acb860727c59e1f853"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1eadd03ff665d4acb860727c59e1f853"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a35c5f2941e75d09db12a19761dcacbad"><param name="Name" value="accel3_init"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a35c5f2941e75d09db12a19761dcacbad"><param name="Name" value="accel3.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a35c5f2941e75d09db12a19761dcacbad"><param name="Name" value="accel3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1755be2695857bd7685f911fd03bf163"><param name="Name" value="accel3_int1_set_duration"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1755be2695857bd7685f911fd03bf163"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1755be2695857bd7685f911fd03bf163"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad30ff6b9ab2e3745ba657c32e9d80838"><param name="Name" value="accel3_int1_set_threshold"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad30ff6b9ab2e3745ba657c32e9d80838"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ad30ff6b9ab2e3745ba657c32e9d80838"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a927d34d5a696baef463f875552ad6b94"><param name="Name" value="accel3_int1_signal_config"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a927d34d5a696baef463f875552ad6b94"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a927d34d5a696baef463f875552ad6b94"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1faa30f39768c01de01c3e4672dafabe"><param name="Name" value="accel3_int2_set_duration"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1faa30f39768c01de01c3e4672dafabe"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1faa30f39768c01de01c3e4672dafabe"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a65a1155d70288a870d051bd7d22b5327"><param name="Name" value="accel3_int2_set_threshold"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a65a1155d70288a870d051bd7d22b5327"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a65a1155d70288a870d051bd7d22b5327"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a59531b29a263266df717d57897be11d5"><param name="Name" value="accel3_int2_signal_config"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a59531b29a263266df717d57897be11d5"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a59531b29a263266df717d57897be11d5"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a6b47d3fb2c9e10fb88b18c89aa5385d2"><param name="Name" value="accel3_interrupt1_set_combination"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a6b47d3fb2c9e10fb88b18c89aa5385d2"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a6b47d3fb2c9e10fb88b18c89aa5385d2"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a74c54db2d1a91ab65a1a2b57f3891e3e"><param name="Name" value="accel3_interrupt1_x_high_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a74c54db2d1a91ab65a1a2b57f3891e3e"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a74c54db2d1a91ab65a1a2b57f3891e3e"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ae60ba8828e7a457e7d3ed56dc394599d"><param name="Name" value="accel3_interrupt1_x_low_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ae60ba8828e7a457e7d3ed56dc394599d"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ae60ba8828e7a457e7d3ed56dc394599d"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aba2058172bf038f068dd2b283ea93c46"><param name="Name" value="accel3_interrupt1_y_high_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aba2058172bf038f068dd2b283ea93c46"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aba2058172bf038f068dd2b283ea93c46"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a38469759cf48d6470385d1da571534b3"><param name="Name" value="accel3_interrupt1_y_low_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a38469759cf48d6470385d1da571534b3"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a38469759cf48d6470385d1da571534b3"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a7efa56c72202df63e78221d056fb81c5"><param name="Name" value="accel3_interrupt1_z_high_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a7efa56c72202df63e78221d056fb81c5"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a7efa56c72202df63e78221d056fb81c5"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3c5fb6c4743ba453366443bc7d9e1091"><param name="Name" value="accel3_interrupt1_z_low_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3c5fb6c4743ba453366443bc7d9e1091"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3c5fb6c4743ba453366443bc7d9e1091"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3fc1e523491846fe1204bf91167490b9"><param name="Name" value="accel3_interrupt2_set_combination"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3fc1e523491846fe1204bf91167490b9"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3fc1e523491846fe1204bf91167490b9"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a8a5b979f3e14b2092d8a1998e5b6f1c7"><param name="Name" value="accel3_interrupt2_x_high_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a8a5b979f3e14b2092d8a1998e5b6f1c7"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a8a5b979f3e14b2092d8a1998e5b6f1c7"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#adac63302b39010726012920aa9528a8f"><param name="Name" value="accel3_interrupt2_x_low_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#adac63302b39010726012920aa9528a8f"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#adac63302b39010726012920aa9528a8f"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aaee659908c8bb68ff5282774c0fe1a3c"><param name="Name" value="accel3_interrupt2_y_high_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aaee659908c8bb68ff5282774c0fe1a3c"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aaee659908c8bb68ff5282774c0fe1a3c"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a546c4e55346d796f35254183faac9f59"><param name="Name" value="accel3_interrupt2_y_low_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a546c4e55346d796f35254183faac9f59"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a546c4e55346d796f35254183faac9f59"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#af76277d590a0dad404580c9c6d582344"><param name="Name" value="accel3_interrupt2_z_high_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#af76277d590a0dad404580c9c6d582344"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af76277d590a0dad404580c9c6d582344"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a74bbd0778e98be8062a449dc741dc4f6"><param name="Name" value="accel3_interrupt2_z_low_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a74bbd0778e98be8062a449dc741dc4f6"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a74bbd0778e98be8062a449dc741dc4f6"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#af1951cc829974672d430b657faaea5e1"><param name="Name" value="accel3_interrupt_active_level"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#af1951cc829974672d430b657faaea5e1"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af1951cc829974672d430b657faaea5e1"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#afc77db94b5a1fa06540b7c923b8d6387"><param name="Name" value="accel3_interrupt_pad_selection"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#afc77db94b5a1fa06540b7c923b8d6387"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#afc77db94b5a1fa06540b7c923b8d6387"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a377f0eefd1d4122e0b4f861a328ec985"><param name="Name" value="accel3_is_interrupt1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a377f0eefd1d4122e0b4f861a328ec985"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a610e53001f8c45b97f4081ec4d78e4e7"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a2e7aa4310aebe04684625bb21a87c25b"><param name="Name" value="accel3_is_interrupt2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a2e7aa4310aebe04684625bb21a87c25b"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a09674caafa6bebec175a6f42bf4d9c7e"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aedde21e2a5fa393424cd43682c5d454f"><param name="Name" value="accel3_is_new_data_all"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aedde21e2a5fa393424cd43682c5d454f"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af60af53f90d5c19ed735aa67dbd604a4"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a6fa04b1f99ccb09bada020b488cbe5f5"><param name="Name" value="accel3_is_new_data_x"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a6fa04b1f99ccb09bada020b488cbe5f5"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a5f4e2f12883b37d172d54e330c1c14c4"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#af9852b0afe2ffac60dd9db75d21ffe8f"><param name="Name" value="accel3_is_new_data_y"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#af9852b0afe2ffac60dd9db75d21ffe8f"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a286c6eb523e421c1a51d476d498d743a"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad4ae924ad7cbf41b6af80a37429bdbd3"><param name="Name" value="accel3_is_new_data_z"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad4ae924ad7cbf41b6af80a37429bdbd3"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1fb73805867f12e06dbbd9edbb7ef69f"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad8ee5562fa7bbcd8694533fb818fa1c1"><param name="Name" value="accel3_is_overrun_all"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad8ee5562fa7bbcd8694533fb818fa1c1"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aa3b3800ae2cca60a8895a15a46bb0c0e"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a265dc1a08a589b7d356cbce75685667f"><param name="Name" value="accel3_is_overrun_x"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a265dc1a08a589b7d356cbce75685667f"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3afc880229151be1ec4f4fc63eeefaa9"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a82f99f5eee8143a9b6bf1e5b31f0ae8b"><param name="Name" value="accel3_is_overrun_y"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a82f99f5eee8143a9b6bf1e5b31f0ae8b"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a6b2f786ba750d685e7fd68f66658895b"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ae9e61627ddbf2c52ec0764c9840d7790"><param name="Name" value="accel3_is_overrun_z"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ae9e61627ddbf2c52ec0764c9840d7790"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a5a8d79b5e076e3b9d64e36783042063c"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3b7ef0dec306d661b25d7c5e2dbedc5c"><param name="Name" value="accel3_is_x_high_interrupt1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3b7ef0dec306d661b25d7c5e2dbedc5c"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a6851092bdf21166fc6ef60fc96361d7c"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#abb8db57c211de354d5603d4c86c91e0f"><param name="Name" value="accel3_is_x_high_interrupt2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#abb8db57c211de354d5603d4c86c91e0f"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af9f40d96f0488f11054bbd66c36fd06b"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a840a322ed4b7604ed37a1e25f822b90f"><param name="Name" value="accel3_is_x_low_interrupt1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a840a322ed4b7604ed37a1e25f822b90f"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aa0be389b1100b40c020d5d6428e81198"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aefba2a10405587a2f373ea781492fa21"><param name="Name" value="accel3_is_x_low_interrupt2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aefba2a10405587a2f373ea781492fa21"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a5b7f89fdede7739e4e1635b103150226"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#abab1b83037f34914651a35679be0bed9"><param name="Name" value="accel3_is_y_high_interrupt1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#abab1b83037f34914651a35679be0bed9"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ad34cba168cf8121b384f8208dc22f2f4"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a93811b4906a755007aa29fa432a05383"><param name="Name" value="accel3_is_y_high_interrupt2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a93811b4906a755007aa29fa432a05383"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a5cf72b987ad011458a6b1820163d754a"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aa487e8cfe5f825771a6ac6387a6f025a"><param name="Name" value="accel3_is_y_low_interrupt1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aa487e8cfe5f825771a6ac6387a6f025a"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a7321e8fabb70606d59a09ebb26415d1e"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a80666aa83f5e4a049fd699688ee7a9ab"><param name="Name" value="accel3_is_y_low_interrupt2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a80666aa83f5e4a049fd699688ee7a9ab"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a25c800c3eaefdf34acff89977175d841"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad1cc25a56583ee0d954b33f7dd3cf24c"><param name="Name" value="accel3_is_z_high_interrupt1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ad1cc25a56583ee0d954b33f7dd3cf24c"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a8b3dcb13eb0cfdecf068c2f2dfb01421"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab7ad9004fb7bdd0f5bcf911ed7308d9f"><param name="Name" value="accel3_is_z_high_interrupt2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab7ad9004fb7bdd0f5bcf911ed7308d9f"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a01aa748f73694604f84da40dc9fdca0f"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aa6676843631f534154ef75fa4400ad27"><param name="Name" value="accel3_is_z_low_interrupt1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aa6676843631f534154ef75fa4400ad27"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ae225e12a35de523bb304d5da0a9ed63f"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a793eeb07c8eaf5f3b1ab35188456d428"><param name="Name" value="accel3_is_z_low_interrupt2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a793eeb07c8eaf5f3b1ab35188456d428"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#afdb271ea3517c0af1ce5975b9a2a085f"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a76ebae83a76b58066d3c876bc4c77ca2"><param name="Name" value="accel3_latched_interrupt1_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a76ebae83a76b58066d3c876bc4c77ca2"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a76ebae83a76b58066d3c876bc4c77ca2"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aaaf360d90fe5381c9c7c42e170cd310b"><param name="Name" value="accel3_latched_interrupt2_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#aaaf360d90fe5381c9c7c42e170cd310b"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#aaaf360d90fe5381c9c7c42e170cd310b"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a55969c2563dc77f0a82aaec9711daa1c"><param name="Name" value="accel3_read_acc_x"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a55969c2563dc77f0a82aaec9711daa1c"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a2c268c2058a24b1b590d349f0b184742"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1d13316e81986222c6c21d01b239ce88"><param name="Name" value="accel3_read_acc_y"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1d13316e81986222c6c21d01b239ce88"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a82ca3ae901d93402a85506aa8b3ec064"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1d2d4f0fba253cf33577472e20d15c7e"><param name="Name" value="accel3_read_acc_z"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a1d2d4f0fba253cf33577472e20d15c7e"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a47614bb592f3eca24ff2a61a6eaa6bfe"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a32e7eddd1ba5812f8d3a533c38a0d6e4"><param name="Name" value="accel3_reboot"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a32e7eddd1ba5812f8d3a533c38a0d6e4"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a32e7eddd1ba5812f8d3a533c38a0d6e4"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3c8efc79db623275446079606123435a"><param name="Name" value="accel3_set_data_rate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3c8efc79db623275446079606123435a"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3c8efc79db623275446079606123435a"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a86315452312a88bc5c88a72c74d4a3a2"><param name="Name" value="accel3_set_full_scale"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a86315452312a88bc5c88a72c74d4a3a2"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a86315452312a88bc5c88a72c74d4a3a2"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a81f2e54d1c60d59a9051d1b7a74ba531"><param name="Name" value="accel3_set_interrupt1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a81f2e54d1c60d59a9051d1b7a74ba531"><param name="Name" value="accel3.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a81f2e54d1c60d59a9051d1b7a74ba531"><param name="Name" value="accel3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a5a9be9aca935f22744f52cb05c9d75c8"><param name="Name" value="accel3_set_interrupt2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8c.html#a5a9be9aca935f22744f52cb05c9d75c8"><param name="Name" value="accel3.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3_8h.html#a5a9be9aca935f22744f52cb05c9d75c8"><param name="Name" value="accel3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a11a3ccdf0c1b44831e2372363f6222f3"><param name="Name" value="accel3_set_mode"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a11a3ccdf0c1b44831e2372363f6222f3"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a11a3ccdf0c1b44831e2372363f6222f3"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab1e3ed14f712c59e0d4bc06ae8d82b6b"><param name="Name" value="accel3_sleep_to_wake_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#ab1e3ed14f712c59e0d4bc06ae8d82b6b"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab1e3ed14f712c59e0d4bc06ae8d82b6b"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a28dbdf3be267a44bf4ffc7c1124a417f"><param name="Name" value="accel3_x_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a28dbdf3be267a44bf4ffc7c1124a417f"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a28dbdf3be267a44bf4ffc7c1124a417f"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3c4ac1167c0d7ce3d2ea8674b9c51880"><param name="Name" value="accel3_y_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a3c4ac1167c0d7ce3d2ea8674b9c51880"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a3c4ac1167c0d7ce3d2ea8674b9c51880"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a15427b6286d5d2ced7d372ad1826aea6"><param name="Name" value="accel3_z_enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8c.html#a15427b6286d5d2ced7d372ad1826aea6"><param name="Name" value="accel3_hw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a15427b6286d5d2ced7d372ad1826aea6"><param name="Name" value="accel3_hw.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#aff665cf0441e8417c1d4283c1dc66058"><param name="Name" value="accel_3_hal_cs_high"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#aff665cf0441e8417c1d4283c1dc66058"><param name="Name" value="accel3_hal.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#aff665cf0441e8417c1d4283c1dc66058"><param name="Name" value="accel3_hal.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#aeaa1761b516a20df3e5d116aceae2851"><param name="Name" value="accel_3_hal_cs_low"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#aeaa1761b516a20df3e5d116aceae2851"><param name="Name" value="accel3_hal.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#aeaa1761b516a20df3e5d116aceae2851"><param name="Name" value="accel3_hal.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#a6cd4277769fdbcdf20463ec46f0278b9"><param name="Name" value="accel_3_hal_delay"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#a6cd4277769fdbcdf20463ec46f0278b9"><param name="Name" value="accel3_hal.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a6cd4277769fdbcdf20463ec46f0278b9"><param name="Name" value="accel3_hal.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#a304b041599629790be405784a1f7eafb"><param name="Name" value="accel_3_hal_reset"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#a304b041599629790be405784a1f7eafb"><param name="Name" value="accel3_hal.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a304b041599629790be405784a1f7eafb"><param name="Name" value="accel3_hal.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaxes__sens__t.html"><param name="Name" value="axes_sens_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structaxes__sens__t.html#ae1c2d516777e6b42af0d281c9ecc7375"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structaxes__sens__t.html#af77b1a54442f2443cf64a4766f916bcd"><param name="Name" value="y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structaxes__sens__t.html#abd938edbea27ed4f351dc19d69039222"><param name="Name" value="z"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a87738054f9a89f0ac29c6ee1fb7da08d"><param name="Name" value="COMMAND_SIZE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#abd83ea49367ca7850ffc9091890aa46b"><param name="Name" value="CTRL_REG1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#afd5ce55297b11bfc3c750a359b80de46"><param name="Name" value="CTRL_REG2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#acdb673970b82f2380da68c9e8d1dc5c6"><param name="Name" value="CTRL_REG3"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a36c532b0a660c101907dcad7ee399fbd"><param name="Name" value="CTRL_REG4"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a97cbbf0a1e80e40544629e925e5a9026"><param name="Name" value="CTRL_REG5"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8c.html#adc81a065700d3af56b6fb631585e3641"><param name="Name" value="DUMMY_BYTE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a8d1b8af192ee3be491a2289fb45ca58a"><param name="Name" value="HP_FILTER_RESET"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ac4c771f61d79d83398f9a503ef4a3f88"><param name="Name" value="INT1_CFG"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a2445fd1c5aaf640679e67cc7b8737d06"><param name="Name" value="INT1_DUR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af8662806f48b92f6979ad5a94b6864aa"><param name="Name" value="INT1_SRC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a6617aba37b5307e4a6c4231ec6f200da"><param name="Name" value="INT1_THS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a95c14af3a9c0b08c2e545bf3f4a7faca"><param name="Name" value="INT2_CFG"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a74293aedbc1dec8cd91d9f33be92d498"><param name="Name" value="INT2_DUR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a268fb5d30f6d0f37ad2a00b39b6fd78b"><param name="Name" value="INT2_SRC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a370fc897047f2ef3ae33db92d7aa7b50"><param name="Name" value="INT2_THS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#a212979f5fc9dcf0a420e90b9b21d780a"><param name="Name" value="MAX_BUFF_SIZE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af3419eb79d96b0179006217d77eb093c"><param name="Name" value="OUT_X_H"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a7a4d341c8dd90a78b5d073c450ad9fe6"><param name="Name" value="OUT_X_L"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ac1dcb47bc35099013ba90efe93d108fd"><param name="Name" value="OUT_Y_H"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#afb7888eaca1ba1dd4c7702a7da5b132e"><param name="Name" value="OUT_Y_L"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a98fe007407ff9fbb53d7d70dbd44cf03"><param name="Name" value="OUT_Z_H"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1c28426236e35c599d9804b7b26d35c9"><param name="Name" value="OUT_Z_L"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#ada74e7db007a68e763f20c17f2985356"><param name="Name" value="READ"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#af9b744db577c4bcdc5be8815cf1bd051"><param name="Name" value="REFERENCE_REG"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a034e43028dded32814f1a4d1fe5bb319"><param name="Name" value="set_x"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ab8649a3e9b9bf7c3105048eefd99c1f8"><param name="Name" value="set_y"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#ad4f3479c1281cd01a78f87a3048896fd"><param name="Name" value="set_z"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a1f7e79cfe81dc06414550fa52418941e"><param name="Name" value="STATUS_REG"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hw_8h.html#a9fcb9e460d175bfc7ab4d80bf788b43a"><param name="Name" value="WHO_AM_I"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="accel3__hal_8h.html#aa10f470e996d0f51210d24f442d25e1e"><param name="Name" value="WRITE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaxes__sens__t.html#ae1c2d516777e6b42af0d281c9ecc7375"><param name="Name" value="x"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structxyz__t.html#ac5ae500a2280ad6ed571a99a11954492"><param name="Name" value="x_pos"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structxyz__t.html"><param name="Name" value="xyz_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structxyz__t.html#ac5ae500a2280ad6ed571a99a11954492"><param name="Name" value="x_pos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structxyz__t.html#a82663881f9567f6bf0b697b77af08d0d"><param name="Name" value="y_pos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structxyz__t.html#aac2925b4cb2dc27bf34a196ebae5c29d"><param name="Name" value="z_pos"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaxes__sens__t.html#af77b1a54442f2443cf64a4766f916bcd"><param name="Name" value="y"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structxyz__t.html#a82663881f9567f6bf0b697b77af08d0d"><param name="Name" value="y_pos"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaxes__sens__t.html#abd938edbea27ed4f351dc19d69039222"><param name="Name" value="z"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structxyz__t.html#aac2925b4cb2dc27bf34a196ebae5c29d"><param name="Name" value="z_pos"></OBJECT>
+</UL>
+</BODY>
+</HTML>
