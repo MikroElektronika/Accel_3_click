@@ -44,17 +44,16 @@
 /******************************************************************************
 * Function Definitions
 *******************************************************************************/
-uint8_t accel3_init(uint8_t address, accel_mode_t accel_mode,
-                     data_rate_t d_rate, bus_mode_t mode )
+uint8_t accel3_init( uint8_t address, accel_mode_t accel_mode, data_rate_t d_rate, bus_mode_t mode )
 {
-    if( !accel3_hw_init( address, mode ) )
-    {
+         if( !accel3_hw_init( address, mode ) )
+        {
         accel3_set_data_rate( d_rate );
         accel3_set_mode( accel_mode );
         accel3_set_full_scale( SCALE_100_G );
-                accel3_x_enable( true );
-                accel3_y_enable( true );
-                accel3_z_enable( true );
+        accel3_x_enable( true );
+        accel3_y_enable( true );
+        accel3_z_enable( true );
 
         return 0;
     }
@@ -93,16 +92,18 @@ xyz_t* accel3_get_xyz_raw( void )
 
 uint8_t accel3_set_interrupt1( uint8_t threshhold, uint8_t duration )
 {
-    accel3_int1_signal_config( INT1_OR_INT2 );
+    accel3_int1_signal_config( INT_SOURCE );
     accel3_interrupt_active_level( LOW );
     accel3_int1_set_duration( duration );
     accel3_int1_set_threshold( threshhold );
-    accel3_interrupt_pad_selection( OPEN_DRAIN );
+    accel3_interrupt_pad_selection( PUSH_PULL );
     accel3_interrupt1_set_combination( OR );
-    accel3_interrupt1_x_high_enable( true );
-        accel3_interrupt1_x_low_enable( true );
-    //accel3_interrupt1_z_high_enable( true );
-    //accel3_interrupt1_z_low_enable( true );
+    accel3_interrupt1_x_high_enable( false );
+    accel3_interrupt1_x_low_enable( false );
+    accel3_interrupt1_y_high_enable( false );
+    accel3_interrupt1_y_low_enable( false );
+    accel3_interrupt1_z_low_enable( true );
+    accel3_interrupt1_z_high_enable( false );
     accel3_latched_interrupt1_enable( true );
 
 

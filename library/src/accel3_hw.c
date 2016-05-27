@@ -240,10 +240,10 @@ int8_t accel3_interrupt_active_level(level_t level)
 
     accel3_hal_read( &reg, &temp, 1 );
 
-    if (level == HIGH)
-        temp |= (level << 7);
-    else if (level == LOW)
-        temp &= ~(level << 7);
+    if (level == LOW)
+        temp |= 0x80;
+    else if (level == HIGH)
+        temp &= ~0x80;
     else return -1;
 
     accel3_hal_write( &reg, &temp, 1 );
@@ -274,11 +274,11 @@ void accel3_latched_interrupt1_enable(bool enable)
 
     accel3_hal_read( &reg, &temp, 1 );
 
-  /*  if (enable == true)
-        temp |= (1<<2);
+   if (enable == true)
+        temp |= ( 1<<2 );
     else
-        temp &= ~(1<<2);          */
-        temp |= 0x04;
+        temp &= ~(1<<2);
+       // temp |= 0x04;
     accel3_hal_write( &reg, &temp, 1 );
 }
 
@@ -300,9 +300,6 @@ int8_t accel3_int1_signal_config(int_signal_t config)
 {
     uint8_t temp;
     uint8_t reg = CTRL_REG3;
-
-  /*  if ( (config > 3) || (config < 0) )
-        return 0;        */
 
     accel3_hal_read( &reg, &temp, 1);
     temp |= config;

@@ -126,8 +126,8 @@ typedef enum
 
 typedef enum
 {
-    LOW = 0,
-    HIGH,
+    HIGH = 0,
+    LOW,
 }level_t;
 
 
