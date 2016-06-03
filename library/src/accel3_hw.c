@@ -42,12 +42,12 @@ static int16_t z_sens;
 /******************************************************************************
 * Function Prototypes
 *******************************************************************************/
-static void initial_calibrate();
+static inline void initial_calibrate();
 
 /******************************************************************************
 * Function Definitions
 *******************************************************************************/
-static void initial_calibrate( void )
+static inline void initial_calibrate( void )
 {
     x_sens = 192;
     y_sens = 199;
