@@ -68,20 +68,11 @@ extern "C"{
 
 void accel3_hal_init( uint8_t address_id, uint8_t mode );
 
-void accel3_hal_reset( void );
-
 void accel3_hal_write(uint8_t *command, uint8_t *buffer,
                           uint8_t count);
 
 void accel3_hal_read( uint8_t *command, uint8_t *buffer,
                          uint8_t count );
-void accel_3_hal_cs_high();
-
-void accel_3_hal_cs_low();
-
-void accel_3_hal_reset( void );
-
-void accel_3_hal_delay( uint32_t ms );
 
 
 #ifdef __cplusplus

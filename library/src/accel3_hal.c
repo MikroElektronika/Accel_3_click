@@ -164,6 +164,13 @@
 * Function Prototypes
 *******************************************************************************/
 
+static inline void accel_3_hal_cs_high( void );
+
+static inline void accel_3_hal_cs_low( void );
+
+static inline void accel_3_hal_reset( void );
+
+static inline void accel_3_hal_delay( uint32_t ms );
 /******************************************************************************
 * Function Definitions
 *******************************************************************************/
@@ -488,25 +495,25 @@ void accel3_hal_read(uint8_t *command, uint8_t *buffer,
 
 }
 
-void accel_3_hal_cs_high()
+static inline void accel_3_hal_cs_high( void )
 {
     ACCEL_3_CS = 1;
 }
 
-void accel_3_hal_cs_low()
+static inline void accel_3_hal_cs_low( void )
 {
     ACCEL_3_CS = 0;
-    Delay_1us();
+    accel_3_hal_delay( 1 );
 }
 
-void accel_3_hal_reset( void )
+static inline void accel_3_hal_reset( void )
 {
     ACCEL_3_RST = 0;
-    Delay_10ms();
+    accel_3_hal_delay( 10 );
     ACCEL_3_RST = 1;
 }
 
-void accel_3_hal_delay( uint32_t ms )
+static inline void accel_3_hal_delay( uint32_t ms )
 {
      while( ms--  )
             Delay_1ms( );
