@@ -50,7 +50,7 @@
 /******************************************************************************
 * Macros
 *******************************************************************************/
-        
+
 /******************************************************************************
 * Typedefs
 *******************************************************************************/
@@ -63,16 +63,16 @@
 * Function Prototypes
 *******************************************************************************/
 #ifdef __cplusplus
-extern "C"{
+extern "C" {
 #endif
 
 void accel3_hal_init( uint8_t address_id, uint8_t mode );
 
 void accel3_hal_write(uint8_t *command, uint8_t *buffer,
-                          uint8_t count);
+                      uint8_t count);
 
 void accel3_hal_read( uint8_t *command, uint8_t *buffer,
-                         uint8_t count );
+                      uint8_t count );
 
 
 #ifdef __cplusplus
