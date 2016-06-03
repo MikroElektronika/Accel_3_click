@@ -42,11 +42,18 @@ static int16_t z_sens;
 /******************************************************************************
 * Function Prototypes
 *******************************************************************************/
-void static initial_calibrate();
+static void initial_calibrate();
 
 /******************************************************************************
 * Function Definitions
 *******************************************************************************/
+static void initial_calibrate( void )
+{
+    x_sens = 192;
+    y_sens = 199;
+    z_sens = 344;
+
+}
 
 uint8_t accel3_hw_init(uint8_t address, bus_mode_t mode)
 {
@@ -62,14 +69,6 @@ uint8_t accel3_hw_init(uint8_t address, bus_mode_t mode)
     else
         return -1;
         
-}
-
-void static initial_calibrate( void )
-{
-    x_sens = 192;
-    y_sens = 199;
-    z_sens = 344;
-
 }
 
 void set_x( int16_t x )
