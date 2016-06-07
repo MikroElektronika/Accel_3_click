@@ -176,97 +176,97 @@ static inline void accel_3_hal_delay( uint32_t ms );
 *******************************************************************************/
 void accel3_hal_init(uint8_t address_id, uint8_t mode )
 {
-	if ( mode == 0 )
-	{
+    if ( mode == 0 )
+    {
 #if defined( __MIKROC_PRO_FOR_ARM__ )
 #if defined( STM32F030C6 ) || defined( STM32F107VC ) || \
                 defined( STM32F407VG )
-		start_i2c_p = I2C_Start_Ptr;
-		write_i2c_p = I2C_Write_Ptr;
-		read_i2c_p = I2C_Read_Ptr;
+        start_i2c_p = I2C_Start_Ptr;
+        write_i2c_p = I2C_Write_Ptr;
+        read_i2c_p = I2C_Read_Ptr;
 
 #elif defined( LM3S1165 ) || defined( TM4C129ENCZAD )
-		enable_i2c_p = I2C_Enable_Ptr;
-		disable_i2c_p = I2C_Disable_Ptr;
-		set_slave_address_i2c_p = I2C_Master_Slave_Addr_Set_Ptr;
-		write_i2c_p = I2C_Write_Ptr;
-		read_i2c_p = I2C_Read_Ptr;
+        enable_i2c_p = I2C_Enable_Ptr;
+        disable_i2c_p = I2C_Disable_Ptr;
+        set_slave_address_i2c_p = I2C_Master_Slave_Addr_Set_Ptr;
+        write_i2c_p = I2C_Write_Ptr;
+        read_i2c_p = I2C_Read_Ptr;
 #endif
 
 #elif defined( __MIKROC_PRO_FOR_AVR__ )
 #if defined( ATMEGA32 )
-		busy_i2c_p = TWI_Busy;
-		status_i2c_p = TWI_Status;
-		close_i2c_p = TWI_Close;
-		start_i2c_p = TWI_Start;
-		stop_i2c_p = TWI_Stop;
-		write_i2c_p = TWI_Write;
-		read_i2c_p = TWI_Read;
+        busy_i2c_p = TWI_Busy;
+        status_i2c_p = TWI_Status;
+        close_i2c_p = TWI_Close;
+        start_i2c_p = TWI_Start;
+        stop_i2c_p = TWI_Stop;
+        write_i2c_p = TWI_Write;
+        read_i2c_p = TWI_Read;
 #elif defined( ATXMEGA32A4 )
-		busy_i2c_p = TWIC_Busy;
-		status_i2c_p = TWIC_Status;
-		close_i2c_p = TWIC_Close;
-		start_i2c_p = TWIC_Start;
-		stop_i2c_p = TWIC_Stop;
-		write_i2c_p = TWIC_Write;
-		read_i2c_p = TWIC_Read;
+        busy_i2c_p = TWIC_Busy;
+        status_i2c_p = TWIC_Status;
+        close_i2c_p = TWIC_Close;
+        start_i2c_p = TWIC_Start;
+        stop_i2c_p = TWIC_Stop;
+        write_i2c_p = TWIC_Write;
+        read_i2c_p = TWIC_Read;
 #endif
 
 #elif defined( __MIKROC_PRO_FOR_PIC__ )
-		is_idle_i2c_p = I2C1_Is_Idle;
-		start_i2c_p = I2C1_Start;
-		stop_i2c_p = I2C1_Stop;
-		restart_i2c_p = I2C1_Repeated_Start;
-		write_i2c_p = I2C1_Wr;
-		read_i2c_p = I2C1_Rd;
+        is_idle_i2c_p = I2C1_Is_Idle;
+        start_i2c_p = I2C1_Start;
+        stop_i2c_p = I2C1_Stop;
+        restart_i2c_p = I2C1_Repeated_Start;
+        write_i2c_p = I2C1_Wr;
+        read_i2c_p = I2C1_Rd;
 
 #elif defined( __MIKROC_PRO_FOR_PIC32__ )
-		is_idle_i2c_p = I2C_Is_Idle_Ptr;
-		start_i2c_p = I2C_Start_Ptr;
-		stop_i2c_p = I2C_Stop_Ptr;
-		restart_i2c_p = I2C_Restart_Ptr;
-		write_i2c_p = I2C_Write_Ptr;
-		read_i2c_p = I2C_Read_Ptr;
+        is_idle_i2c_p = I2C_Is_Idle_Ptr;
+        start_i2c_p = I2C_Start_Ptr;
+        stop_i2c_p = I2C_Stop_Ptr;
+        restart_i2c_p = I2C_Restart_Ptr;
+        write_i2c_p = I2C_Write_Ptr;
+        read_i2c_p = I2C_Read_Ptr;
 
 #elif defined( __MIKROC_PRO_FOR_DSPIC__ )
-		is_idle_i2c_p = I2C2_Is_Idle;
-		start_i2c_p = I2C2_Start;
-		stop_i2c_p = I2C2_Stop;
-		restart_i2c_p = I2C2_Restart;
-		write_i2c_p = I2C2_Write;
-		read_i2c_p = I2C2_Read;
+        is_idle_i2c_p = I2C2_Is_Idle;
+        start_i2c_p = I2C2_Start;
+        stop_i2c_p = I2C2_Stop;
+        restart_i2c_p = I2C2_Restart;
+        write_i2c_p = I2C2_Write;
+        read_i2c_p = I2C2_Read;
 
 #elif defined( __MIKROC_PRO_FOR_8051__ )
-		status_i2c_p = TWI_Status;
-		close_i2c_p = TWI_Close;
-		start_i2c_p = TWI_Start;
-		stop_i2c_p = TWI_Stop;
-		write_i2c_p = TWI_Write;
-		read_i2c_p = TWI_Read;
+        status_i2c_p = TWI_Status;
+        close_i2c_p = TWI_Close;
+        start_i2c_p = TWI_Start;
+        stop_i2c_p = TWI_Stop;
+        write_i2c_p = TWI_Write;
+        read_i2c_p = TWI_Read;
 
 #elif defined( __MIKROC_PRO_FOR_FT90x__ )
-		soft_reset_i2c_p = I2CM_Soft_Reset_Ptr;
-		set_slave_address_i2c_p = I2CM_Set_Slave_Address_Ptr;
-		write_i2c_p = I2CM_Write_Ptr;
-		read_i2c_p = I2CM_Read_Ptr;
-		write_bytes_i2c_p = I2CM_Write_Bytes_Ptr;
-		read_bytes_i2c_p = I2CM_Read_Bytes_Ptr;
-		write_10bit_i2c_p = I2CM_Write_10Bit_Ptr;
-		read_10bit_i2c_p = I2CM_Read_10Bit_Ptr;
+        soft_reset_i2c_p = I2CM_Soft_Reset_Ptr;
+        set_slave_address_i2c_p = I2CM_Set_Slave_Address_Ptr;
+        write_i2c_p = I2CM_Write_Ptr;
+        read_i2c_p = I2CM_Read_Ptr;
+        write_bytes_i2c_p = I2CM_Write_Bytes_Ptr;
+        read_bytes_i2c_p = I2CM_Read_Bytes_Ptr;
+        write_10bit_i2c_p = I2CM_Write_10Bit_Ptr;
+        read_10bit_i2c_p = I2CM_Read_10Bit_Ptr;
 #endif
 
 
 #if defined( __MIKROC_PRO_FOR_ARM__ )   ||  \
             defined( __MIKROC_PRO_FOR_FT90x__ )
-		_i2c_hw_address = address_id;
-		accel_3_hal_cs_high();
+        _i2c_hw_address = address_id;
+        accel_3_hal_cs_high();
 #else
-		_i2c_hw_address = ( address_id << 1 );
-		accel_3_hal_cs_high();
+        _i2c_hw_address = ( address_id << 1 );
+        accel_3_hal_cs_high();
 #endif
-	}
-	else if ( mode == 1 )
-	{
+    }
+    else if ( mode == 1 )
+    {
 
 
 #if defined( __MIKROC_PRO_FOR_ARM__ )   || \
@@ -274,70 +274,70 @@ void accel3_hal_init(uint8_t address_id, uint8_t mode )
             defined( __MIKROC_PRO_FOR_DSPIC__ ) || \
             defined( __MIKROC_PRO_FOR_PIC32__ ) || \
             defined( __MIKROC_PRO_FOR_8051__ )
-		write_spi_p             = SPI_Wr_Ptr;
-		read_spi_p              = SPI_Rd_Ptr;
+        write_spi_p             = SPI_Wr_Ptr;
+        read_spi_p              = SPI_Rd_Ptr;
 
 #elif defined( __MIKROC_PRO_FOR_PIC__ )
-		write_spi_p             = SPI1_Write;
-		read_spi_p              = SPI1_Read;
+        write_spi_p             = SPI1_Write;
+        read_spi_p              = SPI1_Read;
 
 #elif defined( __MIKROC_PRO_FOR_FT90x__ )
-		write_spi_p             = SPIM_Wr_Ptr;
-		read_spi_p              = SPIM_Rd_Ptr;
-		write_bytes_spi_p       = SPIM_WrBytes_Ptr;
-		read_bytes_spi_p        = SPIM_RdBytes_Ptr;
+        write_spi_p             = SPIM_Wr_Ptr;
+        read_spi_p              = SPIM_Rd_Ptr;
+        write_bytes_spi_p       = SPIM_WrBytes_Ptr;
+        read_bytes_spi_p        = SPIM_RdBytes_Ptr;
 #endif
-		accel_3_hal_cs_high();
-	}
+        accel_3_hal_cs_high();
+    }
 
-	hal_mode = mode;
+    hal_mode = mode;
 
 }
 
 void accel3_hal_write(uint8_t *command, uint8_t *buffer,
                       uint8_t count )
 {
-	if ( hal_mode == 0 )
-	{
-		uint8_t temp[ MAX_BUFF_SIZE ];
-		uint8_t cmd_size = COMMAND_SIZE;
-		uint8_t ptr = count;
-		uint16_t i = 0;
+    if ( hal_mode == 0 )
+    {
+        uint8_t temp[ MAX_BUFF_SIZE ];
+        uint8_t cmd_size = COMMAND_SIZE;
+        uint8_t ptr = count;
+        uint16_t i = 0;
 
-		while ( cmd_size-- )
-			temp[ i++ ] = *( command++ );
+        while ( cmd_size-- )
+            temp[ i++ ] = *( command++ );
 
-		while ( ptr-- )
-			temp[ i++ ] = *( buffer++ );
+        while ( ptr-- )
+            temp[ i++ ] = *( buffer++ );
 
 #if defined(__MIKROC_PRO_FOR_ARM__)
 #if defined( STM32F030C6 ) || defined( STM32F107VC ) || \
                 defined( STM32F407VG )
-		start_i2c_p();
-		write_i2c_p( _i2c_hw_address, temp, i, END_MODE_STOP );
+        start_i2c_p();
+        write_i2c_p( _i2c_hw_address, temp, i, END_MODE_STOP );
 
 #elif defined( LM3S1165 ) || defined( TM4C129ENCZAD )
-		set_slave_address_i2c_p( _i2c_hw_address, _I2C_DIR_MASTER_TRANSMIT );
+        set_slave_address_i2c_p( _i2c_hw_address, _I2C_DIR_MASTER_TRANSMIT );
 
-		if ( i == 2 )
-		{
-			write_i2c_p( *( buffer++ ), _I2C_MASTER_MODE_BURST_SEND_START );
-			write_i2c_p( *buffer, _I2C_MASTER_MODE_BURST_SEND_STOP );
+        if ( i == 2 )
+        {
+            write_i2c_p( *( buffer++ ), _I2C_MASTER_MODE_BURST_SEND_START );
+            write_i2c_p( *buffer, _I2C_MASTER_MODE_BURST_SEND_STOP );
 
-		} else {
+        } else {
 
-			write_i2c_p( *( buffer++ ), _I2C_MASTER_MODE_BURST_SEND_START );
+            write_i2c_p( *( buffer++ ), _I2C_MASTER_MODE_BURST_SEND_START );
 
-			while ( i-- > 1 )
-				write_i2c_p( *( buffer++ ), _I2C_MASTER_MODE_BURST_SEND_CONT );
+            while ( i-- > 1 )
+                write_i2c_p( *( buffer++ ), _I2C_MASTER_MODE_BURST_SEND_CONT );
 
-			write_i2c_p( *buffer, _I2C_MASTER_MODE_BURST_SEND_FINISH );
-		}
+            write_i2c_p( *buffer, _I2C_MASTER_MODE_BURST_SEND_FINISH );
+        }
 #endif
 
 #elif defined(__MIKROC_PRO_FOR_FT90x__)
-		set_slave_address_i2c_p( _i2c_hw_address );
-		write_bytes_i2c_p( temp, i );
+        set_slave_address_i2c_p( _i2c_hw_address );
+        write_bytes_i2c_p( temp, i );
 
 #elif defined(__MIKROC_PRO_FOR_AVR__)   || \
               defined(__MIKROC_PRO_FOR_8051__)  || \
@@ -345,178 +345,178 @@ void accel3_hal_write(uint8_t *command, uint8_t *buffer,
               defined(__MIKROC_PRO_FOR_PIC32__) || \
               defined(__MIKROC_PRO_FOR_PIC__)
 
-		start_i2c_p();
-		write_i2c_p( _i2c_hw_address + WRITE );
+        start_i2c_p();
+        write_i2c_p( _i2c_hw_address + WRITE );
 
-		for ( i = 0; i <= count; i++ )
-			write_i2c_p(temp[i]);
+        for ( i = 0; i <= count; i++ )
+            write_i2c_p(temp[i]);
 
-		stop_i2c_p();
+        stop_i2c_p();
 
 #endif
 
-	}
-	else if ( hal_mode == 1 )
-	{
+    }
+    else if ( hal_mode == 1 )
+    {
 
-		accel_3_hal_cs_low();
-		while ( count-- )
-		{
-			write_spi_p( *( buffer++ ) );
-		}
-		accel_3_hal_cs_high();
-	}
+        accel_3_hal_cs_low();
+        while ( count-- )
+        {
+            write_spi_p( *( buffer++ ) );
+        }
+        accel_3_hal_cs_high();
+    }
 
 }
 
 void accel3_hal_read(uint8_t *command, uint8_t *buffer,
                      uint8_t count )
 {
-	if ( hal_mode == 0 )
-	{
-		uint8_t cmd_size = COMMAND_SIZE;
+    if ( hal_mode == 0 )
+    {
+        uint8_t cmd_size = COMMAND_SIZE;
 
 #if defined(__MIKROC_PRO_FOR_ARM__)
 #if defined( STM32F030C6 ) || defined( STM32F107VC ) || \
                 defined( STM32F407VG )
-		start_i2c_p();
-		write_i2c_p( _i2c_hw_address, command, cmd_size, END_MODE_RESTART );
-		read_i2c_p( _i2c_hw_address, buffer, count, END_MODE_STOP );
+        start_i2c_p();
+        write_i2c_p( _i2c_hw_address, command, cmd_size, END_MODE_RESTART );
+        read_i2c_p( _i2c_hw_address, buffer, count, END_MODE_STOP );
 
 #elif defined( LM3S1165 ) || defined( TM4C129ENCZAD )
-		set_slave_address_i2c_p( _i2c_hw_address, _I2C_DIR_MASTER_TRANSMIT );
-		if ( cmd_size == 1 )
-		{
-			write_i2c_p( *command, _I2C_MASTER_MODE_SINGLE_SEND );
+        set_slave_address_i2c_p( _i2c_hw_address, _I2C_DIR_MASTER_TRANSMIT );
+        if ( cmd_size == 1 )
+        {
+            write_i2c_p( *command, _I2C_MASTER_MODE_SINGLE_SEND );
 
-		} else if ( cmd_size == 2 ) {
+        } else if ( cmd_size == 2 ) {
 
-			write_i2c_p( *( command++ ), _I2C_MASTER_MODE_BURST_SEND_START );
-			write_i2c_p( *command, _I2C_MASTER_MODE_BURST_SEND_STOP  );
+            write_i2c_p( *( command++ ), _I2C_MASTER_MODE_BURST_SEND_START );
+            write_i2c_p( *command, _I2C_MASTER_MODE_BURST_SEND_STOP  );
 
-		} else {
+        } else {
 
-			write_i2c_p( *( command++ ), _I2C_MASTER_MODE_BURST_SEND_START );
-			cmd_size--;
+            write_i2c_p( *( command++ ), _I2C_MASTER_MODE_BURST_SEND_START );
+            cmd_size--;
 
-			while ( cmd_size-- > 1 )
-				write_i2c_p( *( command++ ), _I2C_MASTER_MODE_BURST_SEND_CONT );
+            while ( cmd_size-- > 1 )
+                write_i2c_p( *( command++ ), _I2C_MASTER_MODE_BURST_SEND_CONT );
 
-			write_i2c_p( *command, _I2C_MASTER_MODE_BURST_SEND_FINISH );
-		}
+            write_i2c_p( *command, _I2C_MASTER_MODE_BURST_SEND_FINISH );
+        }
 
-		set_slave_address_i2c_p( _i2c_hw_address, _I2C_DIR_MASTER_RECEIVE );
-		if ( count == 1 )
-		{
-			read_i2c_p( buffer, _I2C_MASTER_MODE_BURST_SINGLE_RECEIVE );
+        set_slave_address_i2c_p( _i2c_hw_address, _I2C_DIR_MASTER_RECEIVE );
+        if ( count == 1 )
+        {
+            read_i2c_p( buffer, _I2C_MASTER_MODE_BURST_SINGLE_RECEIVE );
 
-		} else {
+        } else {
 
-			read_i2c_p( buffer++ , _I2C_MASTER_MODE_BURST_RECEIVE_START ) )
-			count--;
+            read_i2c_p( buffer++ , _I2C_MASTER_MODE_BURST_RECEIVE_START ) )
+            count--;
 
-			while ( count-- > 1 )
-			read_i2c_p( buffer++ , _I2C_MASTER_MODE_BURST_SEND_CONT );
+            while ( count-- > 1 )
+            read_i2c_p( buffer++ , _I2C_MASTER_MODE_BURST_SEND_CONT );
 
-			read_i2c_p( buffer, _I2C_MASTER_MODE_BURST_SEND_FINISH );
-		}
+            read_i2c_p( buffer, _I2C_MASTER_MODE_BURST_SEND_FINISH );
+        }
 #endif
 
 #elif defined(__MIKROC_PRO_FOR_FT90x__)
-		set_slave_address_i2c_p( _i2c_hw_address );
+        set_slave_address_i2c_p( _i2c_hw_address );
 
-		if ( cmd_size == 1 )
-			write_i2c_p( *command );
-		else
-			write_bytes_i2c_p( command, cmd_size );
+        if ( cmd_size == 1 )
+            write_i2c_p( *command );
+        else
+            write_bytes_i2c_p( command, cmd_size );
 
-		read_bytes_i2c_p( buffer, count );
+        read_bytes_i2c_p( buffer, count );
 
 #elif defined( __MIKROC_PRO_FOR_AVR__ )    || \
               defined( __MIKROC_PRO_FOR_PIC32__ )  || \
               defined( __MIKROC_PRO_FOR_8051__ )
 
 
-		start_i2c_p();
-		write_i2c_p( _i2c_hw_address | WRITE );
-		write_i2c_p( *command );
-		start_i2c_p();
-		write_i2c_p( _i2c_hw_address | READ );
-		if ( count == 1 )
-		{
-			*buffer = read_i2c_p( 0u );
+        start_i2c_p();
+        write_i2c_p( _i2c_hw_address | WRITE );
+        write_i2c_p( *command );
+        start_i2c_p();
+        write_i2c_p( _i2c_hw_address | READ );
+        if ( count == 1 )
+        {
+            *buffer = read_i2c_p( 0u );
 
-		} else {
+        } else {
 
-			while ( count-- > 1 )
-				*( buffer++ ) = read_i2c_p( 1 );
+            while ( count-- > 1 )
+                *( buffer++ ) = read_i2c_p( 1 );
 
-			*buffer = read_i2c_p( 0u );
+            *buffer = read_i2c_p( 0u );
 
-		}
-		stop_i2c_p();
+        }
+        stop_i2c_p();
 
 #elif defined(__MIKROC_PRO_FOR_PIC__)  || \
               defined(__MIKROC_PRO_FOR_DSPIC__)
-		start_i2c_p();
-		write_i2c_p( _i2c_hw_address + WRITE );
+        start_i2c_p();
+        write_i2c_p( _i2c_hw_address + WRITE );
 
-		while ( cmd_size-- )
-			write_i2c_p( *( command++ ) );
+        while ( cmd_size-- )
+            write_i2c_p( *( command++ ) );
 
-		restart_i2c_p();
-		write_i2c_p( _i2c_hw_address + READ );
+        restart_i2c_p();
+        write_i2c_p( _i2c_hw_address + READ );
 
-		if ( count == 1 )
-		{
-			*buffer = read_i2c_p( 0 );
+        if ( count == 1 )
+        {
+            *buffer = read_i2c_p( 0 );
 
-		} else {
+        } else {
 
-			while ( count > 1 )
-			{
-				*( buffer++ ) = read_i2c_p( 1 );
-				count--;
-			}
+            while ( count > 1 )
+            {
+                *( buffer++ ) = read_i2c_p( 1 );
+                count--;
+            }
 
-			*buffer = read_i2c_p( 0 );
-		}
-		stop_i2c_p();
+            *buffer = read_i2c_p( 0 );
+        }
+        stop_i2c_p();
 #endif
-	}
-	else if ( hal_mode == 1 )
-	{
+    }
+    else if ( hal_mode == 1 )
+    {
 
-		accel_3_hal_cs_low();
-		while ( count-- )
-			*( buffer++ ) = read_spi_p( DUMMY_BYTE );
-		accel_3_hal_cs_high();
-	}
+        accel_3_hal_cs_low();
+        while ( count-- )
+            *( buffer++ ) = read_spi_p( DUMMY_BYTE );
+        accel_3_hal_cs_high();
+    }
 
 }
 
 static inline void accel_3_hal_cs_high( void )
 {
-	ACCEL_3_CS = 1;
+    ACCEL_3_CS = 1;
 }
 
 static inline void accel_3_hal_cs_low( void )
 {
-	ACCEL_3_CS = 0;
-	accel_3_hal_delay( 1 );
+    ACCEL_3_CS = 0;
+    accel_3_hal_delay( 1 );
 }
 
 static inline void accel_3_hal_reset( void )
 {
-	ACCEL_3_RST = 0;
-	accel_3_hal_delay( 10 );
-	ACCEL_3_RST = 1;
+    ACCEL_3_RST = 0;
+    accel_3_hal_delay( 10 );
+    ACCEL_3_RST = 1;
 }
 
 static inline void accel_3_hal_delay( uint32_t ms )
 {
-	while ( ms--  )
-		Delay_1ms( );
+    while ( ms--  )
+        Delay_1ms( );
 }
 
 

@@ -59,10 +59,10 @@
 
 typedef struct
 {
-    int16_t x_pos;
-    int16_t y_pos; 
-    int16_t z_pos;
-}xyz_t;
+	int16_t x_pos;
+	int16_t y_pos;
+	int16_t z_pos;
+} xyz_t;
 
 /******************************************************************************
 * Variables
@@ -73,7 +73,7 @@ typedef struct
 * Function Prototypes
 *******************************************************************************/
 #ifdef __cplusplus
-extern "C"{
+extern "C" {
 #endif
 
 /**
@@ -89,7 +89,7 @@ extern "C"{
 *
 */
 uint8_t accel3_init(uint8_t address, accel_mode_t accel_mode,
-                     data_rate_t d_rate, bus_mode_t mode );
+                    data_rate_t d_rate, bus_mode_t mode );
 
 /**
 * @brief <h3> Get XYZ </h3>

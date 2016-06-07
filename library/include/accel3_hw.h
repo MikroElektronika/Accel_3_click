@@ -35,13 +35,13 @@
  * @par
  *  Accel 3 Click is a click board with a H3LIS331DL accelerometer for
  * acceleration readings on X, Y, and Z axis.
- * 
- * 
  *
- * 
+ *
+ *
+ *
  * @section Schematic
  * @image doc Sch.PDF
- * 
+ *
  */
 
 #ifndef ACCEL3_HW_H_
@@ -83,6 +83,45 @@
 #define INT2_THS        0x36
 #define INT2_DUR        0x37
 
+/**< Bit Masks */
+#define POWER_MODE_BM       0xD0        /**< CTRL_REG1 */
+#define DATA_RATE_BM        0x18
+#define X_EN_BM             0x01
+#define Y_EN_BM             0x02
+#define Z_EN_BM             0x04
+#define BOOT_BM             0x80        /**< CTRL_REG2 */
+#define HI_PASS_MODE_BM     0x60
+#define FILT_DATA_BM        0x10
+#define HI_PASS_INT_2_BM    0x08
+#define HI_PASS_INT_1_BM    0x04
+#define HI_PASS_CUTOFF_BM   0x03
+#define INT_LEVEL_BM        0x80        /**< CTRL_REG3 */
+#define PSH_PULL_OPEN_DR_BM 0x40
+#define INT_2_LATCH_BM      0x20
+#define INT_2_PAD_BM        0x18
+#define INT_1_LATCH_BM      0x04
+#define INT_1_PAD_BM        0x03
+#define BLK_UPDATE_BM       0x80        /**< CTRL_REG4 */
+#define BIG_LIL_ENDIAN_BM   0x40
+#define FULL_SCALE_BM       0x30
+#define SPI_MODE_BM         0x01
+#define SLEEP_2_WAKE_BM     0x03        /**< CTRL_REG5 */
+#define AND_OR_INT1_BM      0x80        /**< INT1_CFG */
+#define Z_HI_INT1_BM        0x20
+#define Z_LO_INT1_BM        0x10
+#define Y_HI_INT1_BM        0x08
+#define Y_LO_INT1_BM        0x04
+#define X_HI_INT1_BM        0x02
+#define X_LO_INT1_BM        0x01
+#define AND_OR_INT2_BM      0x80        /**< INT2_CFG */
+#define Z_HI_INT2_BM        0x20
+#define Z_LO_INT2_BM        0x10
+#define Y_HI_INT2_BM        0x08
+#define Y_LO_INT2_BM        0x04
+#define X_HI_INT2_BM        0x02
+#define X_LO_INT2_BM        0x01
+
+
 
 /******************************************************************************
 * Macros
@@ -93,76 +132,84 @@
 *******************************************************************************/
 typedef enum
 {
-    POWER_DOWN = 0,
-    NORMAL,
-    LOW_POWER_0_5,
-    LOW_POWER_1,
-    LOW_POWER_2,
-    LOW_POWER_5,
-    LOW_POWER_10,
-}accel_mode_t;
+    POWER_DOWN      = 0x00,
+    NORMAL          = 0x20,
+    LOW_POWER_0_5   = 0x40,
+    LOW_POWER_1     = 0x60,
+    LOW_POWER_2     = 0x80,
+    LOW_POWER_5     = 0xA0,
+    LOW_POWER_10    = 0xC0
+} accel_mode_t;
 
 typedef enum
 {
-    HZ_50 = 0,
-    HZ_100,
-    HZ_400,
-    HZ_1000
-}data_rate_t;
+    HZ_50   = 0x00,
+    HZ_100  = 0x08,
+    HZ_400  = 0x10,
+    HZ_1000 = 0x18
+} data_rate_t;
 
 typedef enum
 {
-    HP_NORMAL_MODE = 1,
-    HP_REF_SIGNAL,
-}hp_filter_mode_t;
+    HP_NORMAL_MODE = 0x00,
+    HP_REF_SIGNAL  = 0x20
+} hp_filter_mode_t;
 
 typedef enum
 {
-    CUTOFF_8 = 0,
-    CUTOFF_16,
-    CUTOFF_32,
-    CUTOFF_64,
-}cutoff_freq_t;
+    CUTOFF_1        = 0x00,
+    CUTOFF_0_5      = 0x01,
+    CUTOFF_0_25     = 0x02,
+    CUTOFF_0_125    = 0x03
+} cutoff_freq_t;
 
 typedef enum
 {
-    HIGH = 0,
-    LOW,
-}level_t;
+    HIGH    = 0x00,
+    LOW     = 0x80,
+} level_t;
 
 
 typedef enum
 {
     PUSH_PULL = 0,
     OPEN_DRAIN,
-}interrupt_pad_t;
+} interrupt_pad_t;
 
 typedef enum
 {
     SCALE_100_G = 0,
     SCALE_200_G,
     SCALE_400_G = 3
-}full_scale_t;
+} full_scale_t;
 
 typedef enum
 {
-    OR = 0,
-    AND,
-}int_comb_t;
+    OR   = 0x00,
+    AND  = 0x80
+} int_comb_t;
 
 typedef enum
 {
-    INT_SOURCE = 0x00,
-    INT1_OR_INT2 = 0x01,
-    DATA_READY = 0x02,
-    BOOT_RUNNING = 0x03
-}int_signal_t;
+    INT1_SOURCE     = 0x00,
+    INT1_OR_INT2_1  = 0x01,
+    DATA1_READY     = 0x02,
+    BOOT1_RUNNING   = 0x03
+} int1_signal_t;
 
 typedef enum
 {
-   I2C = 0,
-   SPI_bus
-}bus_mode_t;
+    INT2_SOURCE     = 0x00,
+    INT1_OR_INT2_2  = 0x08,
+    DATA2_READY     = 0x10,
+    BOOT2_RUNNING   = 0x18
+} int2_signal_t;
+
+typedef enum
+{
+    I2C = 0,
+    SPI_bus
+} bus_mode_t;
 
 typedef struct
 {
@@ -170,7 +217,7 @@ typedef struct
     int16_t y;
     int16_t z;
 
-}axes_sens_t;
+} axes_sens_t;
 /******************************************************************************
 * Variables
 *******************************************************************************/
@@ -180,7 +227,7 @@ typedef struct
 * Function Prototypes
 *******************************************************************************/
 #ifdef __cplusplus
-extern "C"{
+extern "C" {
 #endif
 
 /**
@@ -451,17 +498,6 @@ void accel3_ble_enable(bool enable);
 *
 */
 int8_t accel3_set_full_scale(full_scale_t scale);
-
-/**
-* @brief <h3> Accel 3 Get Full Scale </h3>
-*
-* @par
-*  Reads the Full Scale in Control Register 4.
-*
-* @param[out] scale -   Scale value.
-*
-*/
-full_scale_t accel3_get_full_scale( void );
 
 /**
 * @brief <h3> Accel 3 Sleep to Wake Enable </h3>
