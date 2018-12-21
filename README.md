@@ -1,109 +1,120 @@
 ![MikroE](http://www.mikroe.com/img/designs/beta/logo_small.png)
 
-![Accel 3 Click](http://cdn.mikroe.com/img/click/accel-3/preview/accel-3-click-thumb-02.png)
-
----
-[Product Page](http://www.mikroe.com/click/accel3/)
-
-[Manual Page](http://docs.mikroe.com/Accel_3_click)
-
-[Learn Page](http://learn.mikroe.com/mems-sensors-conversion-physical-world-digital-world/)
-
 ---
 
-### General Description
+# Accel_3 Click
 
-Accel 3 click™ is a mikroBUS™ add-on board with ST’s H3LIS331DL low-power high-g 3-axis digital accelerometer. The IC has ±100g/±200g/±400g dynamically selectable full scales and outputs 16-bit data at rates from 0.5 Hz to 1 kHz. On the upper end, the chip can survive a 1000g high-shock. H3LIS331DL has extremely low power consumption (down to 1µA in low-power mode). Advanced sleep-to-wakeup functions are also available.  Accel 3 click can communicate with the target MCU either through the mikroBUS™ SPI or UART interface, with additional functionality provided by an interrupt pin (INT). The board is designed to use a 3.3 power supply only.
-
-Applications
-
-Shock detection, impact recognition, concussion detector
-
-
-Key features
-- ±100g/±200g/±400g dynamically selectable full scales
-- 16-bit data output; 0.5Hz to 1kHz data rates
-- I2C or SPI interface
-- 3.3V power supply
-
-Key benefits
-- Selectable interface
-- Configurable I2C address
-- Low-power consumption
-- mikroBUS™ form factor enables easy integration
+- **CIC Prefix**  : ACCEL3
+- **Author**      : Nenad Filipovic
+- **Verison**     : 1.0.0
+- **Date**        : Aug 2018.
 
 ---
 
-### Example
+### Software Support
 
-#### Configuration
-* MCU:             STM32F107VC
-* Dev.Board:       EasyMx Pro v7
-* Oscillator:      72 Mhz internal
-* Ext. Modules:    Accel 3 click
-* SW:              MikroC PRO for ARM 4.7.4
+We provide a library for the Accel_3 Click on our [LibStock](https://libstock.mikroe.com/projects/view/1795/accel-3-click) 
+page, as well as a demo application (example), developed using MikroElektronika 
+[compilers](http://shop.mikroe.com/compilers). The demo can run on all the main 
+MikroElektronika [development boards](http://shop.mikroe.com/development-boards).
 
-```
-#include <stdint.h>
+**Library Description**
 
-/*      Functions
- ****************************/
+The library covers all the necessary functions to control and read X, Y & Z axis value from Accel 3 click.
 
-#include <stdint.h>
-#include "accel3.h"
-#include "ball_bitmap.h"
-#include "resources.h"
+Key functions :
 
-sbit ACCEL_3_CS  at GPIOD_ODR.B13;
-sbit ACCEL_3_INT at GPIOD_IDR.B10;
+- ``` void accel3_Init() ``` - Initializes function
+- ``` uint16_t accel3_readXaxis() ``` - Function read X axis value
+- ``` uint16_t accel3_readYaxis() ``` - Function read Y axis value
+- ``` uint16_t accel3_readZaxis() ``` - Function read Z axis value
+
+**Examples Description**
+
+Description :
+
+The application is composed of three sections :
+
+- System Initialization - Initializes I2C.
+- Application Initialization - Initialization driver enable's - I2C. Check sensor ID and initialize Accel 3 click.
+- Application Task - (code snippet) This is a example which demonstrates the use of Accel 3 click board.
+     Measured coordinates (X,Y,Z) are being sent to the UART where you can track their changes.
 
 
-void display_init( void );
-void system_setup( uint8_t address,accel_mode_t accel_mode,
-                     data_rate_t d_rate, bus_mode_t mode )
+```.c
+
+void applicationTask()
 {
-  //GPIO Outputs
-  GPIO_Digital_Output( &GPIOD_BASE, _GPIO_PINMASK_13 );
-  GPIO_Digital_Input( &GPIOD_BASE, _GPIO_PINMASK_10 );
-  Delay_ms(200);
+    int16_t valueX;
+    int16_t valueY;
+    int16_t valueZ;
+    uint8_t txtX[ 15 ];
+    uint8_t txtY[ 15 ];
+    uint8_t txtZ[ 15 ];
 
-  //I2C
-  I2C1_Init_Advanced( 100000, &_GPIO_MODULE_I2C1_PB67 );
-  Delay_ms(200);
+    valueX = accel3_readXaxis();
+    valueY = accel3_readYaxis();
+    valueZ = accel3_readZaxis();
 
-  //Accel 3 Initialization
-  accel3_init( address, accel_mode, d_rate, mode );
+    IntToStr( valueX, txtX );
+    IntToStr( valueY, txtY );
+    IntToStr( valueZ, txtZ );
 
-  //UART Initialization
-  UART1_Init(9600);
-  Delay_ms(200);
-  UART1_Write_Text( "UART Initialized" );
-  UART1_Write_Text( "\r\n" );
+    mikrobus_logWrite( "X:", _LOG_TEXT );
+    mikrobus_logWrite( txtX, _LOG_TEXT );
 
-  //TFT Display
-  display_init();
+    mikrobus_logWrite( "    Y:", _LOG_TEXT );
+    mikrobus_logWrite( txtY, _LOG_TEXT );
 
+    mikrobus_logWrite( "    Z:", _LOG_TEXT );
+    mikrobus_logWrite( txtZ, _LOG_LINE );
+
+    Delay_1sec();
 }
 
-void main() 
-{
-  uint8_t address = 0x18;
-  xyz_t* my_coords;
-  uint8_t thresh = 10;
-  uint8_t duration = 5;
-  char text[50];
-
-  system_setup( address, NORMAL, HZ_100, I2C );
-
-  while(1)
-  {
-     my_coords = accel3_get_xyz();
-     
-     sprintf( text, " x: %d y: %d z: %d ", my_coords->x_pos, my_coords->y_pos, my_coords->z_pos );
-     UART1_Write_Text( text );
-     UART1_Write_Text( "\r\n" );
-     Delay_ms(30);
-  }
-
-}
 ```
+
+
+
+The full application code, and ready to use projects can be found on our 
+[LibStock](https://libstock.mikroe.com/projects/view/1795/accel-3-click page.
+
+Other mikroE Libraries used in the example:
+
+- UART
+- Conversions
+
+**Additional notes and informations**
+
+Depending on the development board you are using, you may need 
+[USB UART click](http://shop.mikroe.com/usb-uart-click), 
+[USB UART 2 Click](http://shop.mikroe.com/usb-uart-2-click) or 
+[RS232 Click](http://shop.mikroe.com/rs232-click) to connect to your PC, for 
+development systems with no UART to USB interface available on the board. The 
+terminal available in all Mikroelektronika 
+[compilers](http://shop.mikroe.com/compilers), or any other terminal application 
+of your choice, can be used to read the message.
+
+---
+### Architectures Supported
+
+#### mikroC
+
+| STM | KIN | CEC | MSP | TIVA | PIC | PIC32 | DSPIC | AVR | FT90x |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| x | x | x | x | x | x | x | x | x | x |
+
+#### mikroBasic
+
+| STM | KIN | CEC | MSP | TIVA | PIC | PIC32 | DSPIC | AVR | FT90x |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| x | x | x | x | x | x | x | x | x | x |
+
+#### mikroPascal
+
+| STM | KIN | CEC | MSP | TIVA | PIC | PIC32 | DSPIC | AVR | FT90x |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| x | x | x | x | x | x | x | x | x | x |
+
+---
+---
